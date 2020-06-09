@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt-ung-dung-may-tinh</title>
+
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <input id="soA" type="text" name="soA"/>
+        </td>
+        <td>
+            <input id="soB" type="text" name="soB"/>
+        </td>
+    </tr>
+</table>
+<body>
+<form action="index.html" method="get" name="calculator">
+    <input type="button" class="operator" value="Addition(+)" name="plus" id="addition" onclick="validateFrom()">
+    <input type="button" class="operator" value="Subtraction(-)" name="minus" id="subtraction" onclick="validateFRom()">
+    <input type="button" class="operator" value="Multiplication(x)" name="times" id="multiplication" onclick="validateFROm()">
+    <input type="button" class="operator" value="Division(/)" name="div" id="division" onclick="validateFROM()">
+</form>
+<table>
+    <tr>
+        <td>
+            <p style="color: blue"> Result: </p>
+        </td>
+        <td>
+            <p id="display"></p>
+        </td>
+    </tr>
+</table>
+<script src="js.js"></script>
+</body>
+</html>
